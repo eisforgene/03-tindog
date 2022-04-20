@@ -143,3 +143,50 @@ p {
 .pricing-col {
     padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img-container {
+        padding: 2%;
+    }
+
+}
+
+/* Call To Action Section */
+#cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-container {
+    padding: 4% 20%;
+    background-color: #ff4c68;
+}
+
+.cta-h3 {
+    font-size: 2rem;
+}
+
+/* Footer Section */
+#footer {
+    text-align: center;
+    background-color: #fff;
+}
+
+.links {
+    padding: 4% 20%;
+}
+
+.footer-icon {
+    margin: 1%
+}
