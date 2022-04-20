@@ -7,6 +7,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  padding-bottom: 5%;
 }
 
 h1 {
@@ -39,7 +40,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -72,14 +73,22 @@ p {
 /* Title Image */
 
 .title-img {
-    width: 60%; 
-    transform: rotate(25deg);
+    width: 50%; 
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
 }
 
+.title-img-container {
+    position: relative;
+    padding-left: 5rem;
+}
 /* Feature Section */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
